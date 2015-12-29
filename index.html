@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patient Search App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/vendor/jquery-2.1.4.min.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+            loadManifest();
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    </head>
+    <body>
+        <div align="center" class="app">
+         <div class="app-header">
+             <i class="fa fa-search"></i>
+             <h3>Patient Search</h3>
+         </div>
+         <div class="app-content">
+             <p><em>Search through patients by patient name:</em></p><br>
+             <input type="text" placeholder="Patient Name" id="field">
+             <button class="button search" onclick="searchFunction()"><i class="fa fa-search"></i> Search </button>
+     		<table>
+                 <thead>
+                     <tr>
+                         <td>Identifier</td>
+                         <td>Name</td>
+                         <td>Age</td>
+                         <td>Gender</td>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>&nbsp;</td>
+                         <td>&nbsp;</td>
+                         <td>&nbsp;</td>
+                         <td>&nbsp;</td>
+                     </tr>
+                 </tbody>
+             </table>
+             <a href="#" onclick="history.go(-1)" class="button back"><i class="fa fa-chevron-left"></i> Back </a>
+             <a href="#" onclick="goHome()" class="button help"><i class="fa fa-home"></i> Home </a>
+         </div>
+      </div>
+  </body>
+</html>

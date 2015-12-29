@@ -1,0 +1,144 @@
+/*Status pages*/
+.app {
+     width: 600px;
+     padding: 0 0 30px 0;
+     text-align: left;
+     background: white;
+     margin: 0 auto;
+     display: block;
+     max-width: 100%;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -o-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -khtml-border-radius: 3px;
+     border-radius: 3px;
+     -moz-box-shadow: 2px 2px 15px #999999, -2px -2px 15px #999999;
+     -webkit-box-shadow: 2px 2px 15px #999999, -2px -2px 15px #999999;
+     -o-box-shadow: 2px 2px 15px #999999, -2px -2px 15px #999999;
+     box-shadow: 2px 2px 15px #999999, -2px -2px 15px #999999;
+}
+.app .app-header {
+     background: #00463f;
+     color: white;
+     padding: 0 20px;
+     padding-top: 5px;
+     border-bottom: black 1px solid;
+     border-top-right-radius: 3px;
+     border-top-left-radius: 3px;
+}
+.app .app-header h3 {
+     display: inline-block;
+     color: white;
+     margin: 5px 0;
+     vertical-align: middle;
+}
+.app .app-header .fa {
+     font-size: 18px;
+     vertical-align: middle;
+}
+.app .app-content {
+     padding: 20px 30px 0 30px;
+     color: #363463;
+     font-size: 16px;
+}
+.app .app-content  p {
+     display: block;
+     padding: 0;
+     margin: 0;
+}
+.app .app-content input {
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -o-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -khtml-border-radius: 3px;
+     border-radius: 3px;
+     padding-left: 8px;
+     border: #007FFF 1px solid;
+     width: 200px;
+     height: 29px;
+     font-size: 14px;
+}
+.app table {
+    width: 100%;
+    align-items: baseline;
+    border: #007FFF 1px solid;
+    border-collapse: collapse;
+    margin: 10px 0;
+    color: #007FFF;
+}
+.app table td {
+    border: #007FFF 1px solid;
+    padding: 3px 5px;
+}
+.app table thead  {
+    color: white;
+    font-weight: bold;
+    background-color: #007FFF;
+    border-color: white;
+}
+
+.app table tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+.app table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+.app .app-content .button.search {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #007FFF;
+    border: #007FFF 1px solid;
+    padding: 8px 20px;
+    display: inline-block;
+    line-height: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    color: white !important;
+}
+.app .app-content .button.back {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #5B57A6;
+    border: #5B57A6 1px solid;
+    padding: 8px 20px;
+    display: inline-block;
+    line-height: 1.2em;
+    color: white !important;
+    cursor: pointer;
+    min-width: 0;
+    max-width: 300px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.app .app-content .button.help {
+    float: right;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #88af28;
+    border: #88af28 1px solid;
+    padding: 8px 20px;
+    display: inline-block;
+    line-height: 1.2em;
+    cursor: pointer;
+    margin-right: 0 ;
+    text-decoration: none;
+    color: white !important;
+}
+.app .button:hover {
+   box-shadow: inset 0 4px 4px rgba(0,0,0,.1);
+}
