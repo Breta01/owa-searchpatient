@@ -8,4 +8,4 @@ You have to run OpenMRS with Open Web Apps module. Then archive all files in ZIP
 
 ## Screenshots
 
-![Screenshot...](http://breta.g6.cz/wp-content/uploads/2015/12/Snimek-obrazovky-24.png "Screenshot")
+![Screenshot...](http://breta.g6.cz/wp-content/uploads/2015/12/Sn%C3%ADmek-obrazovky-33.png "Screenshot")
