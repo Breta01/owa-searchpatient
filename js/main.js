@@ -16,14 +16,19 @@ function searchFunction() {
         success: function (data) {
             $("tbody").children().remove();
             $(data).find("patient").each(function () {
+                var patientUrl = sessionStorage.getItem("serverUrl") + "/coreapps/clinicianfacing/patient.page?patientId=" + $(this).find('uuid').first().text();
                 var gender = "Male";
+                var bdt = new Date($(this).find('birthdate').text());
+                var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][bdt.getMonth()];
+                var birthdate = bdt.getDay() + " " + month + " " + bdt.getFullYear();
                 if ($(this).find('person > gender').text() === "F")
                     gender = "Female";
 
-                var info = '<tr>' + '<td>'+ $(this).find('identifier > display').text().split('= ')[1] +'</td>'
+                var info = '<tr onclick=\" document.location = \'' + patientUrl + '\'\">' + '<td>'+ $(this).find('identifier > display').text().split('= ')[1] +'</td>'
                  + '<td>'+ $(this).find('person > preferredName > display').text() +'</td>'
                  + '<td>'+ $(this).find('person > age').text() +'</td>'
                  + '<td>'+ gender +'</td>'
+                 + '<td>'+ birthdate +'</td>'
                  + '</tr>';
 
                 $("tbody").append(info);
