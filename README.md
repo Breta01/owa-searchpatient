@@ -1,6 +1,6 @@
 # Patient Search App
 
-This is app searching through OpenMRS patients using REST calls. It is open web app for open [Open Web Apps module](https://github.com/sunbiz/openmrs-module-owa).
+This is app searching through OpenMRS patients using REST calls. It is open web app for open [Open Web Apps module](https://github.com/sunbiz/openmrs-module-owa) and it requires [Core Apps Module](https://github.com/openmrs/openmrs-module-coreapps).
 
 ## Installation
 
